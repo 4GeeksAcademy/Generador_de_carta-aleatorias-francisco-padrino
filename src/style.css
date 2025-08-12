@@ -1,5 +1,40 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+
 
 body{
-    background: white;
+    background: green;
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.h1 {
+        position: absolute;
+     top: 32%;
+     left: 47%;
+    font-size: 95px;
+}
+.top-suit{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-size: 110px;
+}   
+.bottom-suit{
+    position: relative;
+    bottom: -270px;
+    right: -300px;
+    font-size: 110px;
+}    
+
+.rojo{
+   color: red; 
+}
+.negro{
+   color: black; 
 }
